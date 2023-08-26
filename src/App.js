@@ -8,7 +8,7 @@ export default function App() {
    <footer>
    This project wac coded by Zuzana Hušeková and {" "}  
     <a href="https://github.com/zuzhus/react-weather-app" 
-    target="_blank"> open-sourced on GitHub </a></footer></div>
+    > open-sourced on GitHub </a></footer></div>
   );
 }
 
