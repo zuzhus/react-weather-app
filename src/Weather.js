@@ -10,7 +10,7 @@ export default function Weather() {
         setTemperature(response.data.main.temp);
         setReady(true);
     }
-    08:11 dopozerat video
+    
 
 if (ready) {
     return ( 
