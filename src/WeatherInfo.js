@@ -16,7 +16,7 @@ return (
             <div className="col-8">
                 <div className="clearfix">
                     <div className="float-left">
-                    <WeatherIcon code={props.data.icon} />
+                    <WeatherIcon code={props.data.icon}size={52}/>
                     
                     <span className="float-left"></span>
                     <WeatherTemperature celsius={props.data.temperature}/>
