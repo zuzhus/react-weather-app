@@ -1,9 +1,28 @@
+:root{
+    --primary-color: #813974;
+    --secondary-color: white;
+}
+
 .App {
     max-width: 600px;
-    margin: 30px auto;
+    margin: 40px auto;
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+
+    border-radius: 15px;
+    padding: 6px 6px;
 }
 .App footer {
     font-size: 12px;
     text-align: center;
-    margin: 10px 0;
+    color: var(--secondary-color);
 }
+.App a{
+    color: blue;
+    text-decoration: none;
+    color:rgb(182, 180, 180);
+
+}
+.App a:hover{
+    text-decoration: underline;
+}
+

@@ -55,14 +55,16 @@ if (weatherData.ready) {
             <input 
             type="submit" 
             value="Search" 
-            className="btn btn-primary w-100"
+            className="btn w-100"
             />
             </div>
             </div>
             </form>
             
            <WeatherInfo data={weatherData}/>
+           <div className="container">
             <WeatherForecast coordinates={weatherData.coordinates}/>
+            </div>
             </div>
     );
 } else {

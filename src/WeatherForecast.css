@@ -1,8 +1,18 @@
+:root{
+    --primary-color: #813974;
+    --secondary-color: white;
+}
+
 .WeatherForecast {
     text-align: center;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
 }
 
 .WeatherForecastTemperatureMin {
 opacity: 0.6;
 margin-left: 5px;
 }
+
